@@ -2,6 +2,7 @@ import HeroBanner from "./components/hero-banner";
 import Nav from "./components/nav";
 import Actions from "./components/actions";
 import Mission from "./components/missions";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroBanner />
       <Mission />
       <Actions />
+      <Footer />
     </main>
   );
 }
