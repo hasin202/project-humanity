@@ -19,7 +19,11 @@ const Footer = () => {
             href="https://www.instagram.com/protect_humanity?igsh=YWJ6djluNWZ4Z2J3"
             target="_blank"
           >
-            <img src="/instagram.svg" className="w-6 h-6" />
+            <img
+              src="/instagram.svg"
+              className="w-6 h-6"
+              alt="instagram icon"
+            />
           </a>
         </div>
       </div>
