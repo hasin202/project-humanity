@@ -1,6 +1,6 @@
 const Mission = () => {
   return (
-    <div className="mt-16 mb-16 flex px-12 flex-col w-full items-start">
+    <div className="flex px-12 flex-col w-full items-start">
       <h2 className="font-bold text-2xl">Our mission</h2>
       <p>
         We&apos;re more than a charity; we&apos;re a beacon of hope. United in
