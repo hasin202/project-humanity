@@ -5,7 +5,7 @@ import Mission from "./missions";
 
 const ContentCont = () => {
   return (
-    <div className="flex flex-col gap-16 ">
+    <div className="flex flex-col gap-16">
       <HeroBanner />
       <Mission />
       <Actions />

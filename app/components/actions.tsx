@@ -3,15 +3,14 @@ import { actionsData } from "@/public/actions-data";
 
 const Actions = () => {
   return (
-    <div className="w-full flex flex-col text-xl px-12 justify-start gap-8">
-      <h2 className="font-bold text-2xl">Actions we take</h2>
-      <div className="flex flex-col gap-4">
+    <div className="w-full flex flex-col text-xl px-12 justify-start gap-8 lg:px-28 xl:px-44">
+      <h2 className="w-full font-bold text-2xl sm:text-3xl md:text-center">
+        Actions we take
+      </h2>
+      <div className="flex flex-col gap-4 md:flex-row md:justify-between">
         {actionsData.map((action, i) => {
           return (
-            <div
-              key={i}
-              className="grid grid-cols-[auto_1fr] gap-2 items-center"
-            >
+            <div key={i}>
               <IndividualAction action={action} />
             </div>
           );
